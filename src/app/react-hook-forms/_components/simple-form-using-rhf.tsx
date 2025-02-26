@@ -33,7 +33,7 @@ export default function SimpleForm() {
 
   return (
     <form onSubmit={handleSubmit} className="min-w-80 flex flex-col gap-y-3">
-      <h1 className="text-sm text-center pb-6"> SIMPLE FORM WITH NO RHF </h1>    
+      <h1 className="text-sm text-center pb-6"> SIMPLE FORM USING RHF </h1>    
       <Input 
         type="email" 
         placeholder="Email" 
